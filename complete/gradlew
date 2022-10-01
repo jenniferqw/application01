@@ -22,7 +22,13 @@
 ##
 ##############################################################################
 
-# Attempt to set APP_HOME
+# Attempt to set APP_HOME   mavenCentral()
+ 
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.3'
+    }
+}
 # Resolve links: $0 may be a link
 PRG="$0"
 # Need this for relative symlinks.
