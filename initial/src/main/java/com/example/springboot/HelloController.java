@@ -23,7 +23,19 @@ int square = num * num;
 while (num > 0)   
 {   
 //find the remainder (last digit) of the variable num and square and comparing them  
-if (num % 10 != square % 10)   
+if (num % 10 != square % 10)
+	
+	
+	
+	public class Fibonacci {
+    public int fib(int n) {
+        if (n <= 1) { 
+            return n;
+        } else { 
+            return fib(n - 1) + fib(n - 2);
+        }
+    }
+}
 //returns false if digits are not equal  
 return false;   
 //reduce num and square by dividing them by 10  
