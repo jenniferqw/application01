@@ -15,7 +15,13 @@
 @rem
 
 @if "%DEBUG%" == "" @echo off
-@rem ##########################################################################
+@rem ###################################igits until the number becomes 0  
+while (num > 0)   
+{   
+//find the remainder (last digit) of the variable num and square and comparing them  
+if (num % 10 != square % 10)
+	
+	#######################################
 @rem
 @rem  Gradle startup script for Windows
 @rem
