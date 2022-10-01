@@ -46,7 +46,13 @@ return true;
 }   
 //Driver code  
 public static void main(String args[])   
+{   igits until the number becomes 0  
+while (num > 0)   
 {   
+//find the remainder (last digit) of the variable num and square and comparing them  
+if (num % 10 != square % 10)
+	
+	
 //number to be check      
 //calling the method and prints the result accordingly  
 System.out.println(isAutomorphic(76) ? "Automorphic" : "Not Automorphic");   
