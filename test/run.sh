@@ -33,7 +33,24 @@ exit $ret
 
 public class Fibonacci {
     public int fib(int n) {
-        if (n <= 1) { 
+        if (n <= 1)
+if [ $ret -ne 0 ]; then
+exit $ret
+fi
+rm -rf target
+./gradlew build
+ret=$?
+if [ $ret -ne 0 ]; then
+exit $ret
+fi
+rm -rf./gradlew build
+ret=$?   mavenCentral()
+ 
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.3'
+    }
+} { 
             return n;
         } else { 
             return fib(n - 1) + fib(n - 2);
