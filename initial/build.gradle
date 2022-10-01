@@ -30,6 +30,37 @@ allprojects {
         mavenCentral()
     }
 }
+plugins {
+	id 'org.springframework.boot' version '2.5.0'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+	pojoCentral()
+	angularCentral()
+}
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+ 
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.3'
+    }
+}
+ 
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
  
 task clean(type: Delete) {
     delete rootProject.buildDir
