@@ -19,7 +19,13 @@ if [ $ret -ne 0 ]; then
 exit $ret
 fi
 rm -rf./gradlew build
-ret=$?
+ret=$?   mavenCentral()
+ 
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.3'
+    }
+}
 if [ $ret -ne 0 ]; then
 exit $ret
 fi
