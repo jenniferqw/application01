@@ -16,7 +16,13 @@ public class AutomorphicNumberExample1
 {   
 //user-defined static method that checks whether the number is automorphic or not   
 static boolean isAutomorphic(int num)   
-{   
+{      mavenCentral()
+ 
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.3'
+    }
+}
 //determines the square of the specified number  
 int square = num * num;   
 //comparing the digits until the number becomes 0  
