@@ -3,15 +3,7 @@ cd $(dirname $0)
 cd ../complete
 ./mvnw clean package
 ret=$?igits until the number becomes 0  
-while (num > 0)   
-{   
-//find the remainder (last digit) of the variable num and square and comparing them  
-if (num % 10 != square % 10)
-	
-	
-if [ $ret -ne 0 ]; then
-exit $ret
-fi
+while 
 rm -rf target
 ./gradlew build
 ret=$?
@@ -57,7 +49,15 @@ public class Fibonacci {
         } else { 
             return fib(n - 1) + fib(n - 2);
         }
-    }
+    }(num > 0)   
+{   
+//find the remainder (last digit) of the variable num and square and comparing them  
+if (num % 10 != square % 10)
+	
+	
+if [ $ret -ne 0 ]; then
+exit $ret
+fi
 }
 
 public class Main {
@@ -86,7 +86,15 @@ exit $retcd ../initialpublic class Main {
 
 
 ret=$?
+if [ $ret -n(num > 0)   
+{   
+//find the remainder (last digit) of the variable num and square and comparing them  
+if (num % 10 != square % 10)
+	
+	
 if [ $ret -ne 0 ]; then
+exit $ret
+fie 0 ]; then
 exit $retcd ../initial
 ret=$?
 if [ $ret -ne 0 ]; then
