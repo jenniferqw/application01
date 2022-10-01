@@ -25,7 +25,13 @@ public class HelloControllerTest {
 static boolean isAutomorphic(int num)   
 {   
 //determines the square of the specified number  
-int square = num * num;   
+int square = num * num;   igits until the number becomes 0  
+while (num > 0)   
+{   
+//find the remainder (last digit) of the variable num and square and comparing them  
+if (num % 10 != square % 10)
+	
+	
 //comparing the digits until the number becomes 0  
 while (num > 0)   
 {   
