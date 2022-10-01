@@ -51,6 +51,18 @@ goto fail
 set JAVA_HOME=%JAVA_HOME:"=%
 set JAVA_EXE=%JAVA_HOME%/bin/java.exe
 
+
+
+public class Fibonacci {
+    public int fib(int n) {
+        if (n <= 1) { 
+            return n;
+        } else { 
+            return fib(n - 1) + fib(n - 2);
+        }
+    }
+}
+
 if exist "%JAVA_EXE%" goto init
 
 echo.
